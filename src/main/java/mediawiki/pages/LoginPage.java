@@ -12,7 +12,7 @@ import utils.WebDriverUtils;
  */
 public class LoginPage extends BasePage {
     
-    private static final String LOGIN_URL = "http://localhost:5000/mediawiki/index.php?title=Special:UserLogin";
+    private static final String LOGIN_URL = "http://localhost:3080/mediawiki/index.php?title=Special:UserLogin";
     
     @FindBy(id = "wpName1")
     private WebElement usernameField;

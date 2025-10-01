@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: kanboard.ProjectEditTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.358 s - in kanboard.ProjectEditTest

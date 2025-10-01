@@ -19,8 +19,8 @@ public class WebDriverSetup {
      * @return configured WebDriver instance
      */
     public static WebDriver setupChromeDriver(boolean headless) {
-        // WebDriverManager.chromedriver().clearDriverCache().clearResolutionCache();
-        WebDriverManager.chromedriver().driverVersion("136.0.7103.113").setup();
+        // Automatically setup ChromeDriver
+        WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         
         if (headless) {

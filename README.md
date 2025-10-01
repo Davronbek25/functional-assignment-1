@@ -58,10 +58,10 @@ mvn test
 
 To run tests for a specific application:
 ```
-mvn test -Dtest=expresscart.* or mvnd test -Dtest=expresscart.*Test
-mvn test -Dtest=joomla.* or mvnd test -Dtest=joomla.*Test
-mvn test -Dtest=kanboard.* or mvnd test -Dtest=kanboard.*Test
-mvn test -Dtest=mediawiki.* or mvnd test -Dtest=mediawiki.*Test
+mvn test -Dtest=expresscart.* or mvn test -Dtest=expresscart.*Test
+mvn test -Dtest=joomla.* or mvn test -Dtest=joomla.*Test
+mvn test -Dtest=kanboard.* or mvn test -Dtest=kanboard.*Test
+mvn test -Dtest=mediawiki.* or mvn test -Dtest=mediawiki.*Test
 ```
 
 To run a specific test class:

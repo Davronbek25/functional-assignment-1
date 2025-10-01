@@ -12,7 +12,7 @@ import utils.WebDriverUtils;
  */
 public class LoginPage extends BasePage {
     
-    private static final String LOGIN_URL = "http://localhost:8081/";
+    private static final String LOGIN_URL = "http://localhost:8000/";
     
     @FindBy(id = "form-username")
     private WebElement usernameField;

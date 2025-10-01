@@ -35,7 +35,7 @@ public class MainPage extends BasePage {
      * @return this page object
      */
     public MainPage navigateTo() {
-        driver.get("http://localhost:5000/mediawiki/index.php?title=Main_Page");
+        driver.get("http://localhost:3080/mediawiki/index.php?title=Main_Page");
         return this;
     }
     
